@@ -93,3 +93,15 @@ Run the tests:
 
 The authority tests verify that the advisory Mirror layer does not modify
 the base MeshCore coordinator decision.
+
+## Synthetic Counterfactual Demo
+
+A small synthetic benchmark demonstrates how an advisory Mirror assessment
+can be evaluated against matched ACTION and CONTROL outcomes.
+
+Run it with:
+
+    PYTHONPATH=src python benchmarks/counterfactual_demo.py
+
+The benchmark values are intentionally synthetic. They demonstrate the
+evaluation method and do not represent measured MeshCore research results.

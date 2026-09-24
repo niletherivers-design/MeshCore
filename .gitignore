@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv-*/
+venv/
+
+# Secrets / local configuration
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# Raw experiment data
+*.jsonl
+*.sqlite
+*.sqlite3
+*.db
+*.bin
+*.dump
+*.log
+
+# Large/local data
+data/
+raw/
+datasets/
+artifacts/
+cache/
+.cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*~

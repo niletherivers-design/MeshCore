@@ -67,3 +67,29 @@ internal research environment.
 **Nile**
 
 Independent systems researcher and developer.
+
+## Running the Public Demo
+
+Create a virtual environment:
+
+    python3 -m venv .venv
+    source .venv/bin/activate
+
+Install development dependencies:
+
+    python -m pip install -r requirements-dev.txt
+
+Run the coordinator demo:
+
+    PYTHONPATH=src python -m meshcore_demo.coordinator
+
+Run the Mirror demo:
+
+    PYTHONPATH=src python -m meshcore_demo.mirror_demo
+
+Run the tests:
+
+    PYTHONPATH=src pytest -q
+
+The authority tests verify that the advisory Mirror layer does not modify
+the base MeshCore coordinator decision.

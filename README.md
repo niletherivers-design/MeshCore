@@ -2,6 +2,8 @@
 
 **Experimental Adaptive Storage Architecture**
 
+> This project is unrelated to the MeshCore LoRa networking project.
+
 MeshCore is an experimental systems research project exploring hierarchical
 data organization, predictive relationships, bounded runtime adaptation,
 and asynchronous contextual evaluation.

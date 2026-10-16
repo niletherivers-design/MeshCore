@@ -74,6 +74,7 @@ The project emphasizes:
     ├── src/
     │   └── meshcore_demo/
     ├── .gitignore
+    ├── LICENSE
     ├── README.md
     ├── RELEASE_NOTES_v1.2.0.md
     ├── VERSION
@@ -133,3 +134,8 @@ Run it with:
 
 The benchmark values are intentionally synthetic. They demonstrate the
 evaluation method and do not represent measured MeshCore research results.
+
+## License
+
+MeshCore is licensed under the Apache License, Version 2.0.
+See [LICENSE](LICENSE) for details.
